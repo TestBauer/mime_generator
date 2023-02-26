@@ -1,0 +1,17 @@
+application/hirejson
+
+application/thirt xml
+
+application/pdf
+
+audio/mp4
+ok
+audio/mpeg
+ok
+image/gif
+ko
+image/jp2
+ko
+image/peg
+ok
+image/jpm
