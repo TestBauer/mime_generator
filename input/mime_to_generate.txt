@@ -1,17 +1,18 @@
+???
 application/hirejson
-
+???
 application/thirt xml
-
+ok
 application/pdf
-
+ok
 audio/mp4
 ok
 audio/mpeg
 ok
 image/gif
-ko
+ok
 image/jp2
-ko
+???
 image/peg
 ok
 image/jpm

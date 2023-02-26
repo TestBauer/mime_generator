@@ -6,9 +6,16 @@ def getListofNumArrayfromHeader(header_signs: str) -> list:
     num = None
     r2 = []
     for heads in header_signs:
-        # TODO: Handle offset value from Signs
+
+        paddingsize = int(heads.split(",")[0])
+        if paddingsize > 0:
+            # offset = padding_size * 1 byte
+            for a in range(int(paddingsize)):
+                r.append(int('0x00', 16))
+
         num = (wrap(heads.split(",")[1], 2))
         r = []
+
         for i in num:
             a = ('0x' + str(i))
             a = int(a, 16)
@@ -35,7 +42,7 @@ if __name__ == "__main__":
     f = open("./config/magic.list.json")
     magicl = json.load(f)
 
-    ext = "mpeg"
+    ext = "gif"
     ext2 = "." + ext
     header = getHeaderbyExtension(extension=ext, magiclist=magicl)
     if header is not []:

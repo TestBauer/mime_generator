@@ -546,6 +546,7 @@
     },
     "gif": {
         "signs": [
+            "0,474946383761",
             "0,474946383961"
         ],
         "mime": "image/gif"
@@ -558,16 +559,22 @@
     },
     "jpg": {
         "signs": [
-            "0,FFD8",
-            "0,FFD8",
-            "0,FFD8",
+            "0,FFD8FFDB",
+            "0,FFD8FFE000104A4649460001",
+            "0,FFD8FFEE",
+            "0,FFD8FFE10000457869660000",
+            "0,FFD8FFE0",
             "0,FFD8"
         ],
         "mime": "image/jpeg"
     },
     "jpeg": {
         "signs": [
-            "0,FFD8",
+            "0,FFD8FFDB",
+            "0,FFD8FFE000104A4649460001",
+            "0,FFD8FFEE",
+            "0,FFD8FFE10000457869660000",
+            "0,FFD8FFE0",
             "0,FFD8"
         ],
         "mime": "image/jpeg"
@@ -745,7 +752,11 @@
     "mpeg": {
         "signs": [
             "0,00000100",
-            "0,FFD8"
+            "0,FFD8",
+            "0,FFFB",
+            "0,FFF3",
+            "0,FFF2"
+
         ],
         "mime": "video/mpeg"
     },
